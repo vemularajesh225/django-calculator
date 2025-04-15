@@ -71,5 +71,5 @@ USE_TZ = True
 # Static files settings
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / 'calculator/static']
-
+STATIC_ROOT = BASE_DIR / 'staticfiles'  # needed for deployment
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
